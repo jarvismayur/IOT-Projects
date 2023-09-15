@@ -12,7 +12,7 @@ void setup()
 {
   Serial.begin(115200);
   pinMode(LED, OUTPUT);
-  thing.SetWiFi("Gravitech Dream Educracypedia", "MAYUR@123456789");
+  thing.SetWiFi("Q", "12345678");
   thing.initDevice();
 }
 
